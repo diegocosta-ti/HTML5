@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Criação de uma imagem dinâmica</h1>
+<p>Diminua o tamanho da janela do seu navagador para perceber a mudança <br>
+ no tamanho da imagem.</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="300x.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="700x.png" type="image/png">
+    <img src="1000x.png" alt="Imagem dinamica">
+</picture>
+<h1>Áudio</h1>
+<p>Também vou inserir um arquivo de áudio na página, usando a tag <strong>&lt;audio&gt; &lt;/audio&gt;</strong> </p>
+<audio preload="metadata" controls src="/home/diego/Música/(RMXP - Battle 02) _Re-arrange.mp3" type="audio/mpeg"></audio> <br>
+<h2>Vídeo</h2>
+<p>Com a tag <strong>&lt;video&gt; &lt;/video&gt;</strong>  vamos inserir um vídeo hospedado localmente no servidor.</p>
+<video preload="metadata" width="500" poster="/home/diego/Documentos/html_css/Clinica/SITE_CLINICA.jpg" controls src="/home/diego/Documentos/html_css/Clinica/clinicagraziellecarvalho_20210406_2.mp4" type="video/mp4"></video>
+</body>
+</html>
